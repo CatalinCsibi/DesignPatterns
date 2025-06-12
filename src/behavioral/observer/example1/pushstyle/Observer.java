@@ -1,4 +1,4 @@
-package behavioral.observer.pushstyle;
+package behavioral.observer.example1.pushstyle;
 
 public interface Observer {
 

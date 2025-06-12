@@ -1,4 +1,4 @@
-package behavioral.observer.pushstyle;
+package behavioral.observer.example1.pullstyle;
 
 public class DataSource extends Subject {
 
@@ -10,6 +10,6 @@ public class DataSource extends Subject {
 
     public void setValue(int value) {
         this.value = value;
-        notifyObserver(value);
+        notifyObserver();
     }
 }

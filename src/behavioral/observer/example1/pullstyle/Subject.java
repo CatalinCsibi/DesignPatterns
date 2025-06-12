@@ -1,4 +1,4 @@
-package behavioral.observer.pushstyle;
+package behavioral.observer.example1.pullstyle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,8 +16,8 @@ public class Subject {
         observers.remove(observer);
     }
 
-    public void notifyObserver(int value) {
+    public void notifyObserver() {
         for (var observer : observers)
-            observer.update(value);
+            observer.update();
     }
 }

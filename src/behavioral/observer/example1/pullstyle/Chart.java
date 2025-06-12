@@ -1,4 +1,4 @@
-package behavioral.observer.pullstyle;
+package behavioral.observer.example1.pullstyle;
 
 public class Chart implements Observer {
 
